@@ -1,0 +1,115 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+
+.nav-link:hover::after {
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+
+}
+
+/* Utility */
+.tombol{
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/travel2.jpg);
+    background-size: cover;
+    height: 640px;
+    margin-top: -75px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: black;
+    margin-top: 100px;
+    font-weight:200;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+
+}
+
+/* Search Box */
+.seacrh-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  color: #696969;
+}
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+input[type="text"] {
+  background: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 25px 25px;
+  border-radius: 25px 25px 25px 25px;
+
+}
+/* Destination */
+main section{
+  margin:20px 10% 20px 10%;
+  display:grid;
+  grid-template:repeat(2,1fr)/repeat(3,1fr);
+  grid-column-gap:10px;
+  justify-items:center;
+}
+
+.project-tile{
+  margin-bottom:100px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.project-tile img{
+  width: 350px;
+  main{
+  padding-top:120px;
+  display:flex;
+  flex-direction:column;
+}
+main button {
+  text-align:center;
+  border-radius:5px;
+  border-color:#03A9F4;
+  cursor:pointer;
+  box-shadow:none;
+  width:auto;
+  align-self:center;
+  padding:5px 10px 5px 10px;
+  margin-bottom:20px;
+}
+
+/* Footer */
+.footer{
+  margin-top: 100px;
+}
+.footer p {
+  color: #ACACAC;
+  font-size: 18px;
+}
+
+
